@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic Control</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            
             <div class="logo-container">
-                <!-- Add your logo here -->
                 <img src="../Portfolio2/traffic-jam.png" alt="Logo" class="logo">
                 <h1>SmartSignal</h1>
             </div>
@@ -21,34 +19,66 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Survey</a></li>
                 <li><a href="#" id="login-link">Login</a>
-                    <!-- The login popup that shows on hover -->
                     <div class="login-popup">
                         <form>
                             <label for="username">Username:</label>
                             <input type="text" id="username" name="username"><br><br>
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="password"><br><br>
-                            <button type="submit">
-                                <a href="login.html">Login</a></button>
+                            <button type="submit"><a href="login.html">Login</a></button>
                         </form>
                     </div>
                 </li>
                 <li><a href="#">Help</a></li>
-                
             </ul>
         </nav>
     </header>
-    <div class="image">
-        <img src="cover.png" alt="Traffic Control">
-    </div>
 
-    
-    
-        <div class="container">
-            <h1>Obey the signal, respect the light</h1>
-            <p>It's your guide to staying safe day and night.</p>
-        
+    <div id="container">
+        <img src="road.jpeg" alt="Intersection" id="background-image">
+
+        <!-- Traffic lights placed over the green rectangles -->
+        <div id="a1" class="traffic-light">
+            <div class="light red-light"></div>
+            <div class="light yellow-light"></div>
+            <div class="light green-light"></div>
         </div>
-    
+
+        <div id="a2" class="traffic-light">
+            <div class="light red-light"></div>
+            <div class="light yellow-light"></div>
+            <div class="light green-light"></div>
+        </div>
+
+        <div id="a3" class="traffic-light">
+            <div class="light red-light"></div>
+            <div class="light yellow-light"></div>
+            <div class="light green-light"></div>
+        </div>
+
+        <div id="a4" class="traffic-light">
+            <div class="light red-light"></div>
+            <div class="light yellow-light"></div>
+            <div class="light green-light"></div>
+        </div>
+
+        <!-- New boxes on all four sides -->
+        <div id="box-top" class="side-box">
+            <p>Number of vehicles: </p>
+            <p>Control flow rate: </p>
+        </div>
+        <div id="box-bottom" class="side-box">
+            <p>Number of vehicles: </p>
+            <p>Control flow rate: </p>
+        </div>
+        <div id="box-left" class="side-box">
+            <p>Number of vehicles: </p>
+            <p>Control flow rate: </p>
+        </div>
+        <div id="box-right" class="side-box">
+            <p>Number of vehicles: </p>
+            <p>Control flow rate: </p>
+        </div>
+    </div>
 </body>
 </html>
