@@ -40,8 +40,6 @@ p {
     z-index: 2; /* Ensure lights are above the image */
 }
 
-
-
 /* Adjust positions to fit over green rectangles */
 #a1 {
     top: 170px;  /* Adjust this to match the first green rectangle */
