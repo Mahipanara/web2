@@ -40,25 +40,27 @@ p {
     z-index: 2; /* Ensure lights are above the image */
 }
 
+
+
 /* Adjust positions to fit over green rectangles */
 #a1 {
-    top: 150px;  /* Adjust this to match the first green rectangle */
-    left: 150px;
+    top: 170px;  /* Adjust this to match the first green rectangle */
+    left: 240px;
 }
 
 #a2 {
-    top: 150px;
-    right: 150px;
+    top: 170px;
+    right: 220px;
 }
 
 #a3 {
-    bottom: 150px;
-    left: 150px;
+    bottom: 170px;
+    left: 230px;
 }
 
 #a4 {
-    bottom: 150px;
-    right: 150px;
+    bottom: 170px;
+    right: 210px;
 }
 
 /* Light circle styles */
